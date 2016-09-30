@@ -107,7 +107,7 @@ public class BallRunner
        for(int i = 0; i < ballBotArray.length; i++){
            BallBot otherBallBot = ballBotArray[i];
            if(otherBallBot != null && otherBallBot != ballBot){
-               int currentDistance = distanceBetweenPoints(ballBot, otherBallBot);
+               int currentDistance = (int)distanceBetweenPoints(firstPoint, nextPoint);s
             }
         }
     }
